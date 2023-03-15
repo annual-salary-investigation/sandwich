@@ -188,84 +188,6 @@
     <string>메뉴1</string>
    </property>
   </widget>
-  <widget class="QLabel" name="name1">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>330</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>메뉴이름</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="name2">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>330</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>메뉴이름</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="name3">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>490</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>메뉴이름</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="name4">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>490</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>메뉴이름</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="name5">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>650</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>메뉴이름</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="name6">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>650</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>메뉴이름</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="menubar">
    <property name="geometry">
     <rect>
@@ -280,6 +202,84 @@
    </property>
    <property name="text">
     <string>메뉴를 선택해 주세요</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnmenu1">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>메뉴1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnmenu2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>메뉴2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnmenu3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>490</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>메뉴3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnmenu4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>490</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>메뉴4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnmenu5">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>650</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>메뉴5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnmenu6">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>650</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>메뉴6</string>
    </property>
   </widget>
  </widget>
