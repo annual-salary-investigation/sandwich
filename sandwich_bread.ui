@@ -144,58 +144,6 @@
     <string>빵4</string>
    </property>
   </widget>
-  <widget class="QLabel" name="bname1">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>330</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>빵이름</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="bname2">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>330</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>빵이름</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="bname3">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>490</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>빵이름</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="bname4">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>490</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>빵이름</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="bmenubar">
    <property name="geometry">
     <rect>
@@ -210,6 +158,58 @@
    </property>
    <property name="text">
     <string>빵을 선택해 주세요</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnbread1">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>빵1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnbread2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>빵2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnbread3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>490</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>빵3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnbread4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>490</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>빵4</string>
    </property>
   </widget>
  </widget>
