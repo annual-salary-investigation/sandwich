@@ -32,9 +32,9 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>190</y>
-     <width>130</width>
-     <height>130</height>
+     <y>260</y>
+     <width>151</width>
+     <height>131</height>
     </rect>
    </property>
    <property name="font">
@@ -46,10 +46,11 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
+    <string notr="true">background: rgb(255, 255, 255);
+border-image: url(:/set/cookie.jpg);</string>
    </property>
    <property name="text">
-    <string>단품</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -124,37 +125,13 @@ color: rgb(255, 200, 13);</string>
     <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
-   <property name="geometry">
-    <rect>
-     <x>170</x>
-     <y>360</y>
-     <width>130</width>
-     <height>130</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>NanumGothic</family>
-     <pointsize>20</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>단품</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>190</y>
-     <width>130</width>
-     <height>130</height>
+     <x>260</x>
+     <y>260</y>
+     <width>91</width>
+     <height>131</height>
     </rect>
    </property>
    <property name="font">
@@ -166,19 +143,20 @@ color: rgb(255, 200, 13);</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
+    <string notr="true">background: rgb(255, 255, 255);
+border-image: url(:/set/drink.jpg);</string>
    </property>
    <property name="text">
-    <string>단품</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QPushButton" name="pushButton_7">
    <property name="geometry">
     <rect>
-     <x>490</x>
-     <y>190</y>
-     <width>130</width>
-     <height>130</height>
+     <x>390</x>
+     <y>260</y>
+     <width>91</width>
+     <height>131</height>
     </rect>
    </property>
    <property name="font">
@@ -190,19 +168,20 @@ color: rgb(255, 200, 13);</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
+    <string notr="true">background: rgb(255, 255, 255);
+border-image: url(:/set/drink.jpg);</string>
    </property>
    <property name="text">
-    <string>단품</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_6">
+  <widget class="QPushButton" name="pushButton_8">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>360</y>
-     <width>130</width>
-     <height>130</height>
+     <x>520</x>
+     <y>260</y>
+     <width>91</width>
+     <height>131</height>
     </rect>
    </property>
    <property name="font">
@@ -214,13 +193,128 @@ color: rgb(255, 200, 13);</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
+    <string notr="true">background: rgb(255, 255, 255);
+border-image: url(:/set/drink.jpg);</string>
    </property>
    <property name="text">
-    <string>단품</string>
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>400</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>콜라</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>400</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>사이다</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>400</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>환타</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>쿠키</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="images/set/set_img.qrc"/>
+ </resources>
  <connections/>
 </ui>
