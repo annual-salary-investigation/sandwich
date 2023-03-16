@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>470</width>
+    <width>670</width>
     <height>720</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>470</width>
+    <width>670</width>
     <height>720</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>470</width>
+    <width>670</width>
     <height>720</height>
    </size>
   </property>
@@ -28,163 +28,11 @@
   <property name="styleSheet">
    <string notr="true">background: rgb(0, 151, 67);</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>30</y>
-     <width>470</width>
-     <height>90</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>470</width>
-     <height>90</height>
-    </size>
-   </property>
-   <property name="maximumSize">
-    <size>
-     <width>470</width>
-     <height>90</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>sandwichs</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="setname1">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>330</y>
-     <width>81</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>단품</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="setname2">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>330</y>
-     <width>101</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>샌드위치 + 음료</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="vname3">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>490</y>
-     <width>121</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>샌드위치+음료+쿠키</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>150</y>
-     <width>431</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>구성을 선택해 주세요</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="setimg1">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>200</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>단품</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="setimg2">
-   <property name="geometry">
-    <rect>
-     <x>280</x>
-     <y>200</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>샌드위치 + 음료</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="setimg3">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>360</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="inputMethodHints">
-    <set>Qt::ImhMultiLine</set>
-   </property>
-   <property name="text">
-    <string>샌드위치+음료+쿠키</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>630</y>
+     <x>540</x>
+     <y>460</y>
      <width>111</width>
      <height>51</height>
     </rect>
@@ -194,6 +42,78 @@
    </property>
    <property name="text">
     <string>결제</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>670</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>670</width>
+     <height>90</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>670</width>
+     <height>90</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);
+color: rgb(255, 200, 13);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;TT.WICH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bmenubar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>631</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;구성을 선택해 주세요&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>550</y>
+     <width>611</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
  </widget>
