@@ -26,7 +26,9 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background: rgb(0, 151, 67);</string>
+   <string notr="true">boarder-image : url(:/newPrefix/스테이크치즈.jpg);
+
+background: rgb(0, 151, 67);</string>
   </property>
   <widget class="QPushButton" name="btnmenu1">
    <property name="geometry">
@@ -94,6 +96,19 @@ background-color: rgb(255, 255, 255);</string>
 background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/menu/스테이크치즈.jpg</normaloff>images/menu/스테이크치즈.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>140</width>
+     <height>110</height>
+    </size>
+   </property>
+   <property name="shortcut">
     <string/>
    </property>
   </widget>

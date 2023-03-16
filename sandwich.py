@@ -12,6 +12,7 @@ class qtApp(QWidget):
         uic.loadUi('./sandwich.ui',self)
         self.setWindowIcon(QIcon('./studyPyQt/addressBook.png'))
         self.setWindowTitle('샌드위치 먹을래? v0.1')
+        
 
         self.btnmenu1.clicked.connect(self.btnmenuClicked)
 
