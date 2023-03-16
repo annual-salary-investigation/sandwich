@@ -28,7 +28,7 @@
   <property name="styleSheet">
    <string notr="true">background: rgb(0, 151, 67);</string>
   </property>
-  <widget class="QPushButton" name="btnsingle">
+  <widget class="QPushButton" name="btncard">
    <property name="geometry">
     <rect>
      <x>80</x>
@@ -124,7 +124,7 @@ color: rgb(255, 200, 13);</string>
     <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnset">
+  <widget class="QPushButton" name="btnmoney">
    <property name="geometry">
     <rect>
      <x>390</x>

@@ -190,7 +190,7 @@ background: rgb(255, 255, 255);</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnsauce_3">
+  <widget class="QPushButton" name="btnsauce3">
    <property name="geometry">
     <rect>
      <x>460</x>
