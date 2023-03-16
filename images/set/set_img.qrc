@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="set">
+    <file>cd_set.jpg</file>
+    <file>cookie.jpg</file>
+    <file>drink.jpg</file>
+  </qresource>
+</RCC>
