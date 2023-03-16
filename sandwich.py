@@ -15,6 +15,11 @@ class qtApp(QWidget):
         
 
         self.btnmenu1.clicked.connect(self.btnmenuClicked)
+        self.btnmenu2.clicked.connect(self.btnmenuClicked)
+        self.btnmenu3.clicked.connect(self.btnmenuClicked)
+        self.btnmenu4.clicked.connect(self.btnmenuClicked)
+        self.btnmenu5.clicked.connect(self.btnmenuClicked)
+
 
     def btnmenuClicked(self):
         self.hide() # 메인 윈도우 숨김
