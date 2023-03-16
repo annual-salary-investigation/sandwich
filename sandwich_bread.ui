@@ -56,94 +56,6 @@
     <string>sandwichs</string>
    </property>
   </widget>
-  <widget class="QLabel" name="bimg1">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>200</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>빵1</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="bimg2">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>200</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>빵2</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="bimg3">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>360</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>빵3</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="bimg4">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>360</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>빵4</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="bmenubar">
    <property name="geometry">
     <rect>
@@ -163,11 +75,26 @@
   <widget class="QPushButton" name="btnbread1">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>330</y>
-     <width>75</width>
-     <height>23</height>
+     <x>70</x>
+     <y>210</y>
+     <width>120</width>
+     <height>120</height>
     </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>빵1</string>
@@ -176,11 +103,26 @@
   <widget class="QPushButton" name="btnbread2">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>330</y>
-     <width>75</width>
-     <height>23</height>
+     <x>280</x>
+     <y>210</y>
+     <width>120</width>
+     <height>120</height>
     </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>빵2</string>
@@ -189,11 +131,26 @@
   <widget class="QPushButton" name="btnbread3">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>490</y>
-     <width>75</width>
-     <height>23</height>
+     <x>70</x>
+     <y>410</y>
+     <width>120</width>
+     <height>120</height>
     </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>빵3</string>
@@ -202,14 +159,81 @@
   <widget class="QPushButton" name="btnbread4">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>490</y>
-     <width>75</width>
-     <height>23</height>
+     <x>280</x>
+     <y>410</y>
+     <width>120</width>
+     <height>120</height>
     </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>빵4</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="brdname2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>340</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>빵이름2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="brdname1">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>340</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>빵이름1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="brdname3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>540</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>빵이름3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="brdname4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>540</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>빵이름4</string>
    </property>
   </widget>
  </widget>
