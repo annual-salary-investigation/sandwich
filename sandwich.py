@@ -14,22 +14,14 @@ class qtApp(QWidget):
         self.setWindowTitle('샌드위치 먹을래? v0.1')
 
         self.btnmenu1.clicked.connect(self.btnmenuClicked)
-        self.btnmenu2.clicked.connect(self.btnmenuClicked)
-        self.btnmenu3.clicked.connect(self.btnmenuClicked)
-        self.btnmenu4.clicked.connect(self.btnmenuClicked)
-        self.btnmenu5.clicked.connect(self.btnmenuClicked)
-        self.btnmenu6.clicked.connect(self.btnmenuClicked)
 
     def btnmenuClicked(self):
-        self.hide()
-        self.bread = Bread()
-        self.bread.exec()
-        self.show()
-        
-        
-    
-        
-        
+        self.hide() # 메인 윈도우 숨김
+        self.second = Bread()
+        self.second.exec() # 두번째 창닫을 때까지 기다림
+        self.show() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
+
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
