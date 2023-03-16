@@ -16,7 +16,7 @@ GUI 샌드위치 키오스크 앱
     - DB 설계
     - 화면 구현
     
-    ! 화면구현(https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_menu.png)
+![화면구현](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_menu.png)
     
 
     
