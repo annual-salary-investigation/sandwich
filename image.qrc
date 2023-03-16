@@ -1,10 +1,10 @@
 <RCC>
   <qresource prefix="newPrefix">
     <file>sandwich_chicken.jpg</file>
-    <file>sandwich_club.jpg</file>
-    <file>sandwich_deri.jpg</file>
-    <file>sandwich_egg.jpg</file>
-    <file>sandwich_steak.jpg</file>
     <file>sandwich_BMT.jpg</file>
+    <file>스테이크치즈.jpg</file>
+    <file>써브웨이클럽.jpg</file>
+    <file>에그마요.jpg</file>
+    <file>치킨데리야끼.jpg</file>
   </qresource>
 </RCC>

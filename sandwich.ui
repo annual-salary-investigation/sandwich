@@ -99,7 +99,7 @@ background-color: rgb(255, 255, 255);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image:url(:/newPrefix/sandwich_deri.jpg);
+    <string notr="true">border-image:url(:/newPrefix/치킨데리야끼.jpg);
 background-color: rgb(255, 255, 255);
 </string>
    </property>
@@ -117,7 +117,7 @@ background-color: rgb(255, 255, 255);
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image:url(:/newPrefix/sandwich_egg.jpg);
+    <string notr="true">border-image:url(:/newPrefix/에그마요.jpg);
 background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
@@ -134,7 +134,7 @@ background-color: rgb(255, 255, 255);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image:url(:/newPrefix/sandwich_steak.jpg);
+    <string notr="true">border-image:url(:/newPrefix/스테이크치즈.jpg);
 background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
@@ -151,7 +151,7 @@ background-color: rgb(255, 255, 255);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image:url(:/newPrefix/sandwich_club.jpg);
+    <string notr="true">border-image:url(:/newPrefix/써브웨이클럽.jpg);
 background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
