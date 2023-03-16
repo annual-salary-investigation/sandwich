@@ -28,7 +28,7 @@
   <property name="styleSheet">
    <string notr="true">background: rgb(0, 151, 67);</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btnsingle">
    <property name="geometry">
     <rect>
      <x>80</x>
@@ -124,7 +124,7 @@ color: rgb(255, 200, 13);</string>
     <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="btnset">
    <property name="geometry">
     <rect>
      <x>390</x>
