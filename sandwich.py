@@ -14,6 +14,11 @@ class qtApp(QWidget):
         self.setWindowTitle('샌드위치 먹을래? v0.1')
 
         self.btnmenu1.clicked.connect(self.btnmenuClicked)
+        self.btnmenu2.clicked.connect(self.btnmenuClicked)
+        self.btnmenu3.clicked.connect(self.btnmenuClicked)
+        self.btnmenu4.clicked.connect(self.btnmenuClicked)
+        self.btnmenu5.clicked.connect(self.btnmenuClicked)
+
 
     def btnmenuClicked(self):
         self.hide() # 메인 윈도우 숨김
