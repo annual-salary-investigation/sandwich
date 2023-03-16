@@ -258,7 +258,7 @@ background: rgb(255, 255, 255);</string>
   </widget>
  </widget>
  <resources>
-  <include location="image.qrc"/>
+  <include location="images/sauce/sauce.qrc"/>
  </resources>
  <connections/>
 </ui>

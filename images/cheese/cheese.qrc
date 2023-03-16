@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>모짜렐라 치즈.jpg</file>
+    <file>슈레드 치즈.jpg</file>
+    <file>아메리칸치즈.jpg</file>
+  </qresource>
+</RCC>

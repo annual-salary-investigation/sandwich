@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>스테이크치즈.jpg</file>
+    <file>써브웨이클럽.jpg</file>
+    <file>에그마요.jpg</file>
+    <file>이탈리안비엠티.png</file>
+    <file>치킨데리야끼.jpg</file>
+  </qresource>
+</RCC>

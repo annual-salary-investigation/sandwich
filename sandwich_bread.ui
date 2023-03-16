@@ -459,7 +459,7 @@ border-image: url(:/newPrefix/플렛 브래드.png);</string>
   <zorder>tableWidget_2</zorder>
  </widget>
  <resources>
-  <include location="newimage.qrc"/>
+  <include location="images/bread/bread.qrc"/>
  </resources>
  <connections/>
 </ui>

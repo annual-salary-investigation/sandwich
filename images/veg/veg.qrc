@@ -1,13 +1,13 @@
 <RCC>
   <qresource prefix="newPrefix">
-    <file>양상추.jpg</file>
     <file>아보카도.png</file>
-    <file>양상추.png</file>
+    <file>양상추.jpg</file>
     <file>양파.png</file>
     <file>오이.png</file>
     <file>올리브.png</file>
     <file>토마토.png</file>
     <file>피망.png</file>
+    <file>피클.png</file>
     <file>할라피뇨.png</file>
   </qresource>
 </RCC>

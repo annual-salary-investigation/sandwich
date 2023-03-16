@@ -82,7 +82,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image:url(:/newPrefix/sandwich_BMT.jpg);
+    <string notr="true">border-image:url(:/newPrefix/이탈리안비엠티.png);
 background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
@@ -318,7 +318,7 @@ background-color: rgb(255, 255, 255);</string>
   </widget>
  </widget>
  <resources>
-  <include location="image.qrc"/>
+  <include location="images/menu/menu.qrc"/>
  </resources>
  <connections/>
 </ui>

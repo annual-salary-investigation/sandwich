@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>랜치드레싱.jpg</file>
+    <file>사우스웨스트.jpg</file>
+    <file>스위트칠리.jpg</file>
+  </qresource>
+</RCC>

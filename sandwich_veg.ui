@@ -447,7 +447,7 @@ background-color: rgb(255, 255, 255);</string>
   </widget>
  </widget>
  <resources>
-  <include location="veg_img.qrc"/>
+  <include location="images/veg/veg.qrc"/>
  </resources>
  <connections/>
 </ui>
