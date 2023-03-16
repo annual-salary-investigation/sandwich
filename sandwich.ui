@@ -28,50 +28,6 @@
   <property name="styleSheet">
    <string notr="true">background: rgb(0, 151, 67);</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>470</width>
-     <height>90</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>470</width>
-     <height>90</height>
-    </size>
-   </property>
-   <property name="maximumSize">
-    <size>
-     <width>470</width>
-     <height>90</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>sandwichs</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>110</y>
-     <width>651</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>메뉴를 선택해 주세요</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="btnmenu1">
    <property name="geometry">
     <rect>
@@ -89,7 +45,7 @@ background-color: rgb(255, 255, 255);</string>
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu1_4">
+  <widget class="QPushButton" name="btnmenu5">
    <property name="geometry">
     <rect>
      <x>260</x>
@@ -107,7 +63,7 @@ background-color: rgb(255, 255, 255);
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu1_5">
+  <widget class="QPushButton" name="btnmenu2">
    <property name="geometry">
     <rect>
      <x>260</x>
@@ -124,7 +80,7 @@ background-color: rgb(255, 255, 255);</string>
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu1_6">
+  <widget class="QPushButton" name="btnmenu3">
    <property name="geometry">
     <rect>
      <x>460</x>
@@ -141,7 +97,7 @@ background-color: rgb(255, 255, 255);</string>
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu1_7">
+  <widget class="QPushButton" name="btnmenu4">
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -314,6 +270,65 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>670</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>670</width>
+     <height>90</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>670</width>
+     <height>90</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);
+color: rgb(255, 200, 13);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;TT.WICH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bmenubar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>631</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NanumGothic</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;메뉴를 선택해 주세요&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
