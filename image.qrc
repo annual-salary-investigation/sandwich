@@ -7,4 +7,14 @@
     <file>에그마요.jpg</file>
     <file>치킨데리야끼.jpg</file>
   </qresource>
+  <qresource prefix="newPrefix">
+    <file>랜치드레싱.jpg</file>
+    <file>사우스웨스트.jpg</file>
+    <file>스위트칠리.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>모짜렐라 치즈.jpg</file>
+    <file>슈레드 치즈.jpg</file>
+    <file>아메리칸치즈.jpg</file>
+  </qresource>
 </RCC>
