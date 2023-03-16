@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>470</width>
+    <width>670</width>
     <height>720</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>470</width>
+    <width>670</width>
     <height>720</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>470</width>
+    <width>670</width>
     <height>720</height>
    </size>
   </property>
@@ -32,7 +32,7 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>30</y>
+     <y>0</y>
      <width>470</width>
      <height>90</height>
     </rect>
@@ -56,144 +56,12 @@
     <string>sandwichs</string>
    </property>
   </widget>
-  <widget class="QLabel" name="img1">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>200</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>메뉴1</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="img2">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>200</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>메뉴1</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="img3">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>360</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>메뉴1</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="img4">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>360</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>메뉴1</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="img5">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>520</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>메뉴1</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="img6">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>520</y>
-     <width>120</width>
-     <height>120</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>120</width>
-     <height>120</height>
-    </size>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background: rgb(255, 255, 255);</string>
-   </property>
-   <property name="text">
-    <string>메뉴1</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="menubar">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>150</y>
-     <width>431</width>
+     <x>0</x>
+     <y>110</y>
+     <width>651</width>
      <height>21</height>
     </rect>
    </property>
@@ -207,82 +75,250 @@
   <widget class="QPushButton" name="btnmenu1">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>330</y>
-     <width>75</width>
-     <height>23</height>
+     <x>60</x>
+     <y>180</y>
+     <width>150</width>
+     <height>120</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/newPrefix/sandwich_BMT.jpg);
+background-color: rgb(255, 255, 255);</string>
+   </property>
    <property name="text">
-    <string>메뉴1</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu2">
+  <widget class="QPushButton" name="btnmenu1_4">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>330</y>
-     <width>75</width>
-     <height>23</height>
+     <x>260</x>
+     <y>370</y>
+     <width>150</width>
+     <height>120</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/newPrefix/치킨데리야끼.jpg);
+background-color: rgb(255, 255, 255);
+</string>
+   </property>
    <property name="text">
-    <string>메뉴2</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu3">
+  <widget class="QPushButton" name="btnmenu1_5">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>260</x>
+     <y>180</y>
+     <width>150</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/newPrefix/에그마요.jpg);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnmenu1_6">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>180</y>
+     <width>150</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/newPrefix/스테이크치즈.jpg);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnmenu1_7">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>370</y>
+     <width>150</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/newPrefix/써브웨이클럽.jpg);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
      <y>490</y>
-     <width>75</width>
-     <height>23</height>
+     <width>130</width>
+     <height>70</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
    <property name="text">
-    <string>메뉴3</string>
+    <string>서브웨이 클럽
+7,100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu4">
+  <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>290</x>
+     <x>270</x>
      <y>490</y>
-     <width>75</width>
-     <height>23</height>
+     <width>131</width>
+     <height>70</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
    <property name="text">
-    <string>메뉴4</string>
+    <string>치킨 데리야끼
+7,000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu5">
+  <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>650</y>
-     <width>75</width>
-     <height>23</height>
+     <x>270</x>
+     <y>300</y>
+     <width>130</width>
+     <height>70</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
    <property name="text">
-    <string>메뉴5</string>
+    <string>에그마요
+5,500</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmenu6">
+  <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>650</y>
-     <width>75</width>
-     <height>23</height>
+     <x>470</x>
+     <y>300</y>
+     <width>130</width>
+     <height>70</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
    <property name="text">
-    <string>메뉴6</string>
+    <string>스테이크 &amp; 치즈
+7,900</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>550</y>
+     <width>611</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>130</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>이탈리안 비엠티
+6,700</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
  <connections/>
 </ui>
