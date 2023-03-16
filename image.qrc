@@ -1,20 +1,10 @@
 <RCC>
   <qresource prefix="newPrefix">
-    <file>sandwich_chicken.jpg</file>
-    <file>sandwich_BMT.jpg</file>
-    <file>스테이크치즈.jpg</file>
-    <file>써브웨이클럽.jpg</file>
-    <file>에그마요.jpg</file>
-    <file>치킨데리야끼.jpg</file>
-  </qresource>
-  <qresource prefix="newPrefix">
-    <file>랜치드레싱.jpg</file>
-    <file>사우스웨스트.jpg</file>
-    <file>스위트칠리.jpg</file>
-  </qresource>
-  <qresource prefix="newPrefix">
     <file>모짜렐라 치즈.jpg</file>
     <file>슈레드 치즈.jpg</file>
     <file>아메리칸치즈.jpg</file>
+  </qresource>
+  <qresource prefix="menu">
+    <file>menu/sandwich_BMT.jpg</file>
   </qresource>
 </RCC>
