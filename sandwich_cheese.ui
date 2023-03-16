@@ -56,6 +56,16 @@ background: rgb(255, 255, 255);</string>
    <property name="text">
     <string/>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/cheese/아메리칸치즈.jpg</normaloff>images/cheese/아메리칸치즈.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>110</width>
+     <height>110</height>
+    </size>
+   </property>
   </widget>
   <widget class="QPushButton" name="btncheese2">
    <property name="geometry">
@@ -85,6 +95,16 @@ background: rgb(255, 255, 255);</string>
    <property name="text">
     <string/>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/cheese/슈레드 치즈.jpg</normaloff>images/cheese/슈레드 치즈.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>110</width>
+     <height>110</height>
+    </size>
+   </property>
   </widget>
   <widget class="QPushButton" name="btncheese3">
    <property name="geometry">
@@ -113,6 +133,16 @@ background: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/cheese/모짜렐라 치즈.jpg</normaloff>images/cheese/모짜렐라 치즈.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>110</width>
+     <height>110</height>
+    </size>
    </property>
   </widget>
   <widget class="QTableWidget" name="tableWidget">
@@ -271,6 +301,15 @@ color: rgb(255, 200, 13);</string>
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;치즈를 선택해 주세요&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
+  <zorder>btncheese2</zorder>
+  <zorder>btncheese3</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_2</zorder>
+  <zorder>bmenubar</zorder>
+  <zorder>btncheese1</zorder>
  </widget>
  <resources>
   <include location="images/cheese/cheese.qrc"/>

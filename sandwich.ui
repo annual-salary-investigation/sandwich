@@ -46,6 +46,16 @@ background-color: rgb(255, 255, 255);</string>
    <property name="text">
     <string/>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/menu/이탈리안비엠티.png</normaloff>images/menu/이탈리안비엠티.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>140</width>
+     <height>110</height>
+    </size>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnmenu5">
    <property name="geometry">
@@ -64,6 +74,16 @@ background-color: rgb(255, 255, 255);
    <property name="text">
     <string/>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/menu/치킨데리야끼.jpg</normaloff>images/menu/치킨데리야끼.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>140</width>
+     <height>110</height>
+    </size>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnmenu2">
    <property name="geometry">
@@ -80,6 +100,16 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/menu/에그마요.jpg</normaloff>images/menu/에그마요.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>140</width>
+     <height>110</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="btnmenu3">
@@ -127,6 +157,16 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/menu/써브웨이클럽.jpg</normaloff>images/menu/써브웨이클럽.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>140</width>
+     <height>110</height>
+    </size>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
