@@ -12,9 +12,12 @@ class Bread(QDialog,QWidget):
 
         self.show() # 두번째 창 실행
 
-        # self.btncheese1.clicked.connect(self.btnbreadClicked)
-        # self.btncheese2.clicked.connect(self.btnbreadClicked)
-        # self.btncheese3.clicked.connect(self.btnbreadClicked)
+        self.btnbread1.clicked.connect(self.btnbreadClicked)
+        self.btnbread2.clicked.connect(self.btnbreadClicked)
+        self.btnbread3.clicked.connect(self.btnbreadClicked)
+        self.btnbread4.clicked.connect(self.btnbreadClicked)
+        self.btnbread5.clicked.connect(self.btnbreadClicked)
+        self.btnbread6.clicked.connect(self.btnbreadClicked)
 
     def btnbreadClicked(self):
         self.hide() # 메인 윈도우 숨김
