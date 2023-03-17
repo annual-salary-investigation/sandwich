@@ -352,7 +352,7 @@ border-image: url(:/set/drink.jpg);</string>
     <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btnback">
    <property name="geometry">
     <rect>
      <x>20</x>

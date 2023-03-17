@@ -502,7 +502,7 @@ border-image: url(:/newPrefix/플렛 브래드.png);</string>
     <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btnback">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -540,7 +540,7 @@ color: rgb(255, 255, 255);</string>
   <zorder>btnbread6</zorder>
   <zorder>label_12</zorder>
   <zorder>tableWidget_2</zorder>
-  <zorder>pushButton</zorder>
+  <zorder>btnback</zorder>
  </widget>
  <resources/>
  <connections/>
