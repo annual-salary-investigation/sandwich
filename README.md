@@ -23,7 +23,7 @@ GUI 샌드위치 키오스크 앱
     - 뒤로가기 버튼 구현
     - ui 완성
 
-![화면구현](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_set.png
+![화면구현](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_set.png)
 
 
 
