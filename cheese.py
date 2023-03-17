@@ -19,6 +19,7 @@ class Cheese(QDialog):
     def btnmenuClicked(self):
         self.hide() # 메인 윈도우 숨김
         self.four = Veg()
+        self.four.names.append(self)
         self.four.exec() # 두번째 창닫을 때까지 기다림
         self.show() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 

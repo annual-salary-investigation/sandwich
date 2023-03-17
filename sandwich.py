@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QPixmap, QIcon
 import pymysql
 from bread import Bread
-from cheese import Cheese
+
 
 class qtApp(QDialog):
     def __init__(self):

@@ -4,8 +4,9 @@ from PyQt5 import uic
 from sauce import Sauce
 
 
-class Veg(QDialog,QWidget):
+class Veg(QDialog):
     def __init__(self):
+        names = [] 
         super().__init__()
         uic.loadUi('./sandwich_Veg.ui', self)
         self.setWindowTitle('샌드위치 먹을래? v0.1')
@@ -26,4 +27,10 @@ class Veg(QDialog,QWidget):
         self.five = Sauce()
         self.five.exec() # 두번째 창닫을 때까지 기다림
         self.show() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
+
+    def btnPrevClicked(self):        
+        obj = self.names[0]        
+        self.hide()
+        obj.exec()
+        self.close()
         
