@@ -30,9 +30,6 @@ class qtApp(QDialog):
         self.show() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
         
 
-
-
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = qtApp()
