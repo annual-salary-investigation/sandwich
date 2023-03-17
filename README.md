@@ -17,6 +17,16 @@ GUI 샌드위치 키오스크 앱
     - 화면 구현
     
 ![화면구현](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_menu.png)
+
+# 3일차
+    - DB 재구현
+    - 뒤로가기 버튼 구현
+    - ui 완성
+
+![화면구현](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_set.png
+
+
+
     
 
     
