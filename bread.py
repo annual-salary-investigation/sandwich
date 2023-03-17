@@ -31,3 +31,5 @@ class Bread(QDialog):
         self.hide()
         obj.exec()
         self.close()
+
+        
