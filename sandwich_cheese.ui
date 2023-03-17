@@ -31,9 +31,9 @@
   <widget class="QPushButton" name="btncheese1">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>210</y>
-     <width>120</width>
+     <x>80</x>
+     <y>250</y>
+     <width>130</width>
      <height>120</height>
     </rect>
    </property>
@@ -45,7 +45,7 @@
    </property>
    <property name="maximumSize">
     <size>
-     <width>120</width>
+     <width>130</width>
      <height>120</height>
     </size>
    </property>
@@ -70,9 +70,9 @@ background: rgb(255, 255, 255);</string>
   <widget class="QPushButton" name="btncheese2">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>210</y>
-     <width>120</width>
+     <x>280</x>
+     <y>250</y>
+     <width>130</width>
      <height>120</height>
     </rect>
    </property>
@@ -84,8 +84,8 @@ background: rgb(255, 255, 255);</string>
    </property>
    <property name="maximumSize">
     <size>
-     <width>120</width>
-     <height>120</height>
+     <width>130</width>
+     <height>130</height>
     </size>
    </property>
    <property name="styleSheet">
@@ -109,9 +109,9 @@ background: rgb(255, 255, 255);</string>
   <widget class="QPushButton" name="btncheese3">
    <property name="geometry">
     <rect>
-     <x>460</x>
-     <y>210</y>
-     <width>120</width>
+     <x>470</x>
+     <y>250</y>
+     <width>130</width>
      <height>120</height>
     </rect>
    </property>
@@ -123,7 +123,7 @@ background: rgb(255, 255, 255);</string>
    </property>
    <property name="maximumSize">
     <size>
-     <width>120</width>
+     <width>130</width>
      <height>120</height>
     </size>
    </property>
@@ -145,24 +145,11 @@ background: rgb(255, 255, 255);</string>
     </size>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>540</y>
-     <width>611</width>
-     <height>161</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>330</y>
+     <x>80</x>
+     <y>360</y>
      <width>130</width>
      <height>70</height>
     </rect>
@@ -189,8 +176,8 @@ background: rgb(255, 255, 255);</string>
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>330</y>
+     <x>280</x>
+     <y>360</y>
      <width>130</width>
      <height>70</height>
     </rect>
@@ -217,8 +204,8 @@ background: rgb(255, 255, 255);</string>
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>460</x>
-     <y>330</y>
+     <x>470</x>
+     <y>360</y>
      <width>130</width>
      <height>70</height>
     </rect>
@@ -301,18 +288,53 @@ color: rgb(255, 200, 13);</string>
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;치즈를 선택해 주세요&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>528</y>
+     <width>541</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>530</y>
+     <width>75</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 200, 13);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>◀</string>
+   </property>
+  </widget>
+  <zorder>label_9</zorder>
+  <zorder>label_8</zorder>
   <zorder>btncheese2</zorder>
   <zorder>btncheese3</zorder>
-  <zorder>tableWidget</zorder>
   <zorder>label_7</zorder>
-  <zorder>label_8</zorder>
-  <zorder>label_9</zorder>
   <zorder>label_2</zorder>
   <zorder>bmenubar</zorder>
   <zorder>btncheese1</zorder>
+  <zorder>tableWidget_2</zorder>
+  <zorder>pushButton</zorder>
  </widget>
- <resources>
-  <include location="images/cheese/cheese.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
