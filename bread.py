@@ -25,6 +25,8 @@ class Bread(QDialog):
         self.third.names.append(self)
         self.third.exec() # 두번째 창닫을 때까지 기다림
         self.show() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
+
+        
         
     def btnPrevClicked(self):        
         obj = self.names[0]        

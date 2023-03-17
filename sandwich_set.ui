@@ -135,7 +135,7 @@ color: rgb(255, 200, 13);</string>
     <string>세트</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnback">
+  <widget class="QPushButton" name="btnPrev">
    <property name="geometry">
     <rect>
      <x>20</x>

@@ -5,8 +5,8 @@ from sauce import Sauce
 
 
 class Veg(QDialog):
+    names = [] 
     def __init__(self):
-        names = [] 
         super().__init__()
         uic.loadUi('./sandwich_Veg.ui', self)
         self.setWindowTitle('샌드위치 먹을래? v0.1')
