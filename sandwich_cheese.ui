@@ -301,7 +301,11 @@ color: rgb(255, 200, 13);</string>
     <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+<<<<<<< Updated upstream
+  <widget class="QPushButton" name="btnback">
+=======
+  <widget class="QPushButton" name="btnPrev">
+>>>>>>> Stashed changes
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -333,7 +337,11 @@ color: rgb(255, 255, 255);</string>
   <zorder>bmenubar</zorder>
   <zorder>btncheese1</zorder>
   <zorder>tableWidget_2</zorder>
-  <zorder>pushButton</zorder>
+<<<<<<< Updated upstream
+  <zorder>btnback</zorder>
+=======
+  <zorder>btnPrev</zorder>
+>>>>>>> Stashed changes
  </widget>
  <resources/>
  <connections/>
