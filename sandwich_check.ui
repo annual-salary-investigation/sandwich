@@ -87,7 +87,7 @@ color: rgb(255, 200, 13);</string>
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;메뉴를 확인해 주세요&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnmoney">
+  <widget class="QPushButton" name="btnpay">
    <property name="geometry">
     <rect>
      <x>479</x>
