@@ -22,8 +22,8 @@ class Bread(QDialog):
         self.btnbread6.clicked.connect(self.btnbreadClicked)
         self.btnPrev.clicked.connect(self.btnPrevClicked)
 
-        self.menuview.setEnabled(False)
-        self.text_value = ''
+        #self.menuview.setEnabled(False)
+        #self.text_value = ''
 
     def btnbreadClicked(self):
         self.conn = pymysql.connect(host='210.119.12.72', user='root', password='12345',
