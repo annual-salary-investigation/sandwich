@@ -2,9 +2,12 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
 from cheese import Cheese
+from PyQt5.QtGui import QPixmap, QIcon
+import pymysql
 
 class Bread(QDialog):
     names = []
+    curOrderNo = 0
 
     def __init__(self):
         super().__init__()
@@ -19,7 +22,45 @@ class Bread(QDialog):
         self.btnbread6.clicked.connect(self.btnbreadClicked)
         self.btnPrev.clicked.connect(self.btnPrevClicked)
 
+        self.menuview.setEnabled(False)
+        self.text_value = ''
+
     def btnbreadClicked(self):
+        self.conn = pymysql.connect(host='210.119.12.72', user='root', password='12345',
+                                    db='sandwich2', charset='utf8')
+        print(self.sender().objectName())
+        breadName = self.sender().objectName()
+
+
+        if breadName == 'btnbread1': # 허니오트
+            breadVal = 1
+        elif breadName == 'btnbread2': # 화이트
+            breadVal = 2
+        elif breadName == 'btnbread3': # 플랫브레드
+            breadVal = 3
+        elif breadName == 'btnbread4': # 위트
+            breadVal = 4
+        elif breadName == 'btnbread5': # 하티
+            breadVal = 5
+        elif breadName == 'btnbread6': # 파마산오레가노
+            breadVal = 6
+
+        query = '''INSERT INTO orderoptions
+                        (OrdNo
+                       , OptNo)
+                    VALUES
+                        (%s
+                        ,%s)
+                '''
+        cur = self.conn.cursor()
+        cur.execute(query, (self.curOrderNo, breadVal))
+        self.conn.commit()
+
+        self.curOrderOptionNo = cur.lastrowid # OrderOptionNo KEY
+        self.conn.close()
+
+        print('메뉴 저장')
+    
         self.hide() # 메인 윈도우 숨김
         self.third = Cheese()
         self.third.names.append(self)

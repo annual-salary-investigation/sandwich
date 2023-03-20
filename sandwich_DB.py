@@ -8,6 +8,8 @@ from bread import Bread
 
 
 class qtApp(QDialog):
+    curOrderNo = 0
+
     def __init__(self):
         
         super().__init__()
@@ -21,6 +23,8 @@ class qtApp(QDialog):
         self.btnmenu4.clicked.connect(self.btnmenuClicked)
         self.btnmenu5.clicked.connect(self.btnmenuClicked)
 
+        # self.menuview.setEnabled(False)
+        # self.text_value = ''
 
     def btnmenuClicked(self):
         self.conn = pymysql.connect(host='210.119.12.72', user='root', password='12345',
@@ -56,6 +60,9 @@ class qtApp(QDialog):
         cur = self.conn.cursor()
         cur.execute(query, (menuVal))
         self.conn.commit()
+
+        self.curOrderNo = cur.lastrowid
+        print(self.curOrderNo)
         self.conn.close()
 
         print('메뉴 저장')
@@ -63,8 +70,9 @@ class qtApp(QDialog):
         self.hide() # 메인 윈도우 숨김
         self.second = Bread()      
         self.second.names.append(self)
-        self.second.exec() # 두번째 창닫을 때까지 기다림        
-        self.show() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
+        self.second.curOrderNo = self.curOrderNo # OrderNo Key
+        self.second.show() # 두번째 창닫을 때까지 기다림        
+        self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
         
 
 if __name__ == '__main__':
