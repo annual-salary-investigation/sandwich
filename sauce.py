@@ -21,12 +21,13 @@ class Sauce(QDialog):
     def btnbreadClicked(self):
         self.hide() # 메인 윈도우 숨김
         self.six = Set()
-        self.six.exec() # 두번째 창닫을 때까지 기다림
-        self.show() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
+        self.six.names.append(self)
+        self.six.show() # 두번째 창닫을 때까지 기다림
+        self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 
     def btnPrevClicked(self):        
         obj = self.names[0]        
-        self.hide()
-        obj.exec()
+        self.names.pop()
+        obj.show()
         self.close()
         

@@ -3,7 +3,6 @@ import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QPixmap, QIcon
-import pymysql
 from bread import Bread
 
 class qtApp(QDialog):
