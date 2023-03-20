@@ -3,8 +3,6 @@ from PyQt5.QtWidgets import *
 from PyQt5 import uic
 from veg import Veg
 
-
-
 class Cheese(QDialog):
     names = [] 
     def __init__(self):
@@ -21,10 +19,10 @@ class Cheese(QDialog):
         self.four = Veg()
         self.four.names.append(self)
         self.four.exec() # 두번째 창닫을 때까지 기다림
-        self.show() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
+        self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 
     def btnPrevClicked(self):        
-        obj = self.names[0]        
-        self.hide()
+        obj = self.names[0]
+        self.names.pop()        
         obj.exec()
         self.close()
