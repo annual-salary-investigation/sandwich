@@ -9,6 +9,10 @@ from set import Set
 class Sauce(QDialog):
     names = []
     curOrderNo = 0
+    curbread = 0
+    curcheese = 0
+    curveg = 0
+    cursauce = 0
 
     def __init__(self):
         super().__init__()
@@ -30,11 +34,11 @@ class Sauce(QDialog):
         sauceName = self.sender().objectName()
 
         if sauceName == 'btnsauce1': # 스위트어니언
-            vegVal = 13
+            sauceVal = 18
         elif sauceName == 'btnsauce2': # 허니머스타드
-            vegVal = 14
+            sauceVal = 19
         elif sauceName == 'btnsauce3': # 스위트칠리
-            vegVal = 15
+            sauceVal = 20
         
         query = '''INSERT INTO orderoptions
                         (OrdNo
@@ -44,18 +48,26 @@ class Sauce(QDialog):
                         ,%s)
                 '''
         cur = self.conn.cursor()
-        cur.execute(query, (self.curOrderNo, vegVal))
+        cur.execute(query, (self.curOrderNo, sauceVal))
         self.conn.commit()
 
         self.curOrderOptionNo = cur.lastrowid # OrderOptionNo KEY
         self.conn.close()
 
         print('메뉴 저장')
+        print(self.curbread)
+        print(self.curcheese)
+        print(self.curveg)
+        print(sauceVal)
 
         self.hide() # 메인 윈도우 숨김
         self.six = Set()
         self.six.names.append(self)
         self.six.curOrderNo = self.curOrderNo
+        self.six.curbread = self.curbread
+        self.six.curcheese = self.curcheese
+        self.six.curveg = self.curveg
+        self.six.cursauce = sauceVal
         self.six.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 

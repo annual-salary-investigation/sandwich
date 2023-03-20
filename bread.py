@@ -8,6 +8,7 @@ import pymysql
 class Bread(QDialog):
     names = []
     curOrderNo = 0
+    breadVal=0
 
     def __init__(self):
         super().__init__()
@@ -65,6 +66,7 @@ class Bread(QDialog):
         self.third = Cheese()
         self.third.names.append(self)
         self.third.curOrderNo = self.curOrderNo # OrdNo 넘겨줌
+        self.third.curbread = breadVal
         self.third.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 

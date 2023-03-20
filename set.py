@@ -3,12 +3,17 @@ from PyQt5.QtWidgets import *
 from PyQt5 import uic
 from PyQt5.QtGui import QPixmap, QIcon
 import pymysql
-from money import Money
+from check import Check
 
 class Set(QDialog,QWidget):
     names = []
     curOrderNo = 0
-
+    curbread = 0
+    curcheese = 0
+    curveg = 0
+    cursauce = 0
+    curset = 0
+    
     def __init__(self):
         super().__init__()
         uic.loadUi('./sandwich_set.ui', self)
@@ -27,24 +32,29 @@ class Set(QDialog,QWidget):
         setName = self.sender().objectName()
 
         if setName == 'btnset': # 세트
-            self.setVal = 1
+            setVal = 1
         elif setName == 'btnsingle': # 단품
-            self.setVal = 0
+            setVal = 0
 
         query = '''UPDATE orders
                       SET SetYn = %s
                     WHERE OrdNo = %s       
                 '''
         cur = self.conn.cursor()
-        cur.execute(query,(self.setVal, self.curOrderNo))
+        cur.execute(query,(setVal, self.curOrderNo))
         self.conn.commit()
         self.conn.close()
 
         print('메뉴 저장')
+        print(self.curbread)
+        print(self.curcheese)
+        print(self.curveg)
+        print(self.cursauce)
+        print(setVal)
 
         
         self.hide() # 메인 윈도우 숨김
-        self.seven = Set()
+        self.seven = Check()
         self.seven.names.append(self)
         self.seven.curOrderNo = self.curOrderNo
         self.seven.show() # 두번째 창닫을 때까지 기다림

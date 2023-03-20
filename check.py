@@ -5,6 +5,12 @@ from money import Money
 
 class Check(QDialog):
     names = []
+    curOrderNo = 0
+    curbread = 0
+    curcheese = 0
+    curveg = 0
+    cursauce = 0
+    curset = 0
 
     def __init__(self):
         super().__init__()
@@ -12,6 +18,15 @@ class Check(QDialog):
         self.setWindowTitle('샌드위치 먹을래? v0.1')
 
         self.show() # 두번째 창 실행
+
+        # print(self.menuview.text())
+        # msg="주문내역 : "
+        # msg+=str(self.curbread) + self.menuview.text()
+        msg='가나다라'
+        self.menuview.setText(msg)
+        msg+='마바사'
+        self.menuview.setText(msg)
+
 
         self.btnpay.clicked.connect(self.btnbreadClicked)
         self.btnPrev.clicked.connect(self.btnPrevClicked)

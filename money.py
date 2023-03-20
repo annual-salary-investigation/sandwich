@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
+import pymysql
 
 class Money(QDialog):
     names = []
@@ -14,6 +15,6 @@ class Money(QDialog):
 
         # self.btncard.clicked.connect(self.btnbreadClicked)
         # self.btnmoney.clicked.connect(self.btnbreadClicked)
-        # #self.btnPrev.clicked.connect(self.btnPrevClicked)
+        # # #self.btnPrev.clicked.connect(self.btnPrevClicked)
 
     

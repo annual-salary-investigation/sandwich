@@ -66,7 +66,7 @@ class qtApp(QDialog):
         self.conn.close()
 
         print('메뉴 저장')
-        
+     
         self.hide() # 메인 윈도우 숨김
         self.second = Bread()      
         self.second.names.append(self)
