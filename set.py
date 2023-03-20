@@ -1,8 +1,9 @@
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
+from money import Money
 
-class Set(QDialog,QWidget):
+class Set(QDialog):
     names = []
 
     def __init__(self):
@@ -19,7 +20,7 @@ class Set(QDialog,QWidget):
 
     def btnbreadClicked(self):
         self.hide() # 메인 윈도우 숨김
-        self.seven = Set()
+        self.seven = Money()
         self.seven.names.append(self)
         self.seven.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
