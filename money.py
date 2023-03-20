@@ -4,6 +4,7 @@ from PyQt5 import uic
 
 class Money(QDialog):
     names = []
+    curOrderNo = 0
 
     def __init__(self):
         super().__init__()
