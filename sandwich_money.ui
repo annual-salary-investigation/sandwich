@@ -111,19 +111,6 @@ color: rgb(255, 200, 13);</string>
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;결제 방식을 선택해 주세요&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget_2">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>530</y>
-     <width>611</width>
-     <height>161</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="btnmoney">
    <property name="geometry">
     <rect>
@@ -146,6 +133,19 @@ color: rgb(255, 200, 13);</string>
    </property>
    <property name="text">
     <string>현금</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="menuview">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>530</y>
+     <width>631</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
  </widget>

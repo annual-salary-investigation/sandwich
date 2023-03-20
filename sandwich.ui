@@ -285,19 +285,6 @@ background-color: rgb(255, 255, 255);</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>530</y>
-     <width>631</width>
-     <height>161</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
@@ -386,6 +373,19 @@ color: rgb(255, 200, 13);</string>
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;메뉴를 선택해 주세요&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
+  <widget class="QLineEdit" name="menuview">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>540</y>
+     <width>631</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
   <zorder>label_7</zorder>
   <zorder>label_4</zorder>
   <zorder>label_5</zorder>
@@ -396,9 +396,9 @@ color: rgb(255, 200, 13);</string>
   <zorder>btnmenu2</zorder>
   <zorder>btnmenu3</zorder>
   <zorder>btnmenu4</zorder>
-  <zorder>tableWidget</zorder>
   <zorder>label_2</zorder>
   <zorder>bmenubar</zorder>
+  <zorder>menuview</zorder>
  </widget>
  <resources>
   <include location="images/menu/menu.qrc"/>
