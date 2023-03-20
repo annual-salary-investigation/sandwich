@@ -2,10 +2,12 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
 from sauce import Sauce
-
+from PyQt5.QtGui import QPixmap, QIcon
+import pymysql
 
 class Veg(QDialog):
-    names = [] 
+    names = []
+    curOrderNo = 0
 
     def __init__(self):
         super().__init__()

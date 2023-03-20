@@ -23,6 +23,7 @@ class Cheese(QDialog):
         #self.text_value = ''
 
     def btncheeseClicked(self):
+        print(self.curOrderNo)
         self.conn = pymysql.connect(host='210.119.12.72', user='root', password='12345',
                                     db='sandwich2', charset='utf8')
         print(self.sender().objectName())
@@ -50,6 +51,7 @@ class Cheese(QDialog):
         self.conn.close()
 
         print('메뉴 저장')
+
         self.hide() # 메인 윈도우 숨김
         self.four = Veg()
         self.four.names.append(self)
