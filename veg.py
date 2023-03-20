@@ -25,9 +25,49 @@ class Veg(QDialog):
         self.btnPrev.clicked.connect(self.btnPrevClicked)
 
     def btnvegClicked(self):
+        print(self.curOrderNo)
+        self.conn = pymysql.connect(host='210.119.12.72', user='root', password='12345',
+                                    db='sandwich2', charset='utf8')
+        print(self.sender().objectName())
+        vegName = self.sender().objectName()
+
+        if vegName == 'btnveg1': # 양상추
+            vegVal = 10
+        elif vegName == 'btnveg2': # 토마토
+            vegVal = 11
+        elif vegName == 'btnveg3': # 오이
+            vegVal = 12
+        elif vegName == 'btnveg4': # 피망
+            vegVal = 13
+        elif vegName == 'btnveg5': # 양파
+            vegVal = 14
+        elif vegName == 'btnveg6': # 올리브
+            vegVal = 15
+        elif vegName == 'btnveg7': # 할라피뇨
+            vegVal = 16
+        elif vegName == 'btnveg8': # 아보카도
+            vegVal = 17
+        
+        query = '''INSERT INTO orderoptions
+                        (OrdNo
+                       , OptNo)
+                    VALUES
+                        (%s
+                        ,%s)
+                '''
+        cur = self.conn.cursor()
+        cur.execute(query, (self.curOrderNo, vegVal))
+        self.conn.commit()
+
+        self.curOrderOptionNo = cur.lastrowid # OrderOptionNo KEY
+        self.conn.close()
+
+        print('메뉴 저장')
+
         self.hide() # 메인 윈도우 숨김
         self.five = Sauce()
         self.five.names.append(self)
+        self.five.curOrderNo = self.curOrderNo # OrdNo 넘겨줌
         self.five.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 

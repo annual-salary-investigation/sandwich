@@ -19,9 +19,6 @@ class Cheese(QDialog):
         self.btncheese3.clicked.connect(self.btncheeseClicked)
         self.btnPrev.clicked.connect(self.btnPrevClicked)
 
-        #self.menuview.setEnabled(False)
-        #self.text_value = ''
-
     def btncheeseClicked(self):
         print(self.curOrderNo)
         self.conn = pymysql.connect(host='210.119.12.72', user='root', password='12345',
@@ -55,6 +52,7 @@ class Cheese(QDialog):
         self.hide() # 메인 윈도우 숨김
         self.four = Veg()
         self.four.names.append(self)
+        self.four.curOrderNo = self.curOrderNo # OrdNo 넘겨줌
         self.four.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 
