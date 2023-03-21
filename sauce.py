@@ -35,11 +35,11 @@ class Sauce(QDialog):
         print(self.sender().objectName())
         sauceName = self.sender().objectName()
 
-        if sauceName == 'btnsauce1': # 스위트어니언
+        if sauceName == 'btnsauce1': # 스위트칠리
             sauceVal = 18
-        elif sauceName == 'btnsauce2': # 허니머스타드
+        elif sauceName == 'btnsauce2': # 사우스웨스트
             sauceVal = 19
-        elif sauceName == 'btnsauce3': # 스위트칠리
+        elif sauceName == 'btnsauce3': # 렌치드레싱
             sauceVal = 20
         
         query = '''INSERT INTO orderoptions

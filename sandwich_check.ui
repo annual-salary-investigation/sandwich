@@ -112,19 +112,6 @@ color: rgb(255, 255, 255);</string>
     <string>결제</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="menuview">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>180</y>
-     <width>631</width>
-     <height>421</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="btnPrev">
    <property name="geometry">
     <rect>
@@ -146,6 +133,24 @@ color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>◀</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="menuview">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>190</y>
+     <width>631</width>
+     <height>412</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 255, 255);</string>
    </property>
   </widget>
  </widget>

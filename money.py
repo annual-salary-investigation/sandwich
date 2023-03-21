@@ -13,8 +13,11 @@ class Money(QDialog):
 
         self.show() # 두번째 창 실행
 
-        # self.btncard.clicked.connect(self.btnbreadClicked)
-        # self.btnmoney.clicked.connect(self.btnbreadClicked)
+        self.btncard.clicked.connect(self.btnbreadClicked)
+        self.btnmoney.clicked.connect(self.btnbreadClicked)
         # # #self.btnPrev.clicked.connect(self.btnPrevClicked)
+
+    def btnbreadClicked(self):
+        QMessageBox.question(self,'결재', '결재를 진행하시겠습니까?')
 
     

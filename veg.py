@@ -37,19 +37,19 @@ class Veg(QDialog):
 
         if vegName == 'btnveg1': # 양상추
             vegVal = 10
-        elif vegName == 'btnveg2': # 토마토
+        elif vegName == 'btnveg2': # 아보카도
             vegVal = 11
-        elif vegName == 'btnveg3': # 오이
+        elif vegName == 'btnveg3': # 양파
             vegVal = 12
-        elif vegName == 'btnveg4': # 피망
+        elif vegName == 'btnveg4': # 오이
             vegVal = 13
-        elif vegName == 'btnveg5': # 양파
+        elif vegName == 'btnveg5': # 올리브
             vegVal = 14
-        elif vegName == 'btnveg6': # 올리브
+        elif vegName == 'btnveg6': # 토마토
             vegVal = 15
-        elif vegName == 'btnveg7': # 할라피뇨
+        elif vegName == 'btnveg7': # 피망
             vegVal = 16
-        elif vegName == 'btnveg8': # 아보카도
+        elif vegName == 'btnveg8': # 할라피뇨
             vegVal = 17
         
         query = '''INSERT INTO orderoptions
