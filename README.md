@@ -41,6 +41,10 @@ GUI 샌드위치 키오스크 앱
 - 결제 확인창 QMessageBox로 띄움
 - 결제 완료창 추가
 
+![메뉴 확인창](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_check_menu.png)
+
+![결제 확인창](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_payment.png)
+
 
     
 
