@@ -21,7 +21,8 @@ class Money(QDialog):
 
     def btnbreadClicked(self):
         qmsBox = QMessageBox()
-        qmsBox.question(self, '결제', '결제를 진행하시겠습니까?',
+        qmsBox.setStyleSheet('QMessageBox {color: rgb(255, 255, 255)}')
+        qmsBox.question(qmsBox, '결제', '결제를 진행하시겠습니까?',
                                       QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
 
         if qmsBox == QMessageBox.Yes:
