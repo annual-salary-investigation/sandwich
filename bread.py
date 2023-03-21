@@ -15,7 +15,8 @@ class Bread(QDialog):
     def __init__(self):
         super().__init__()
         uic.loadUi('./sandwich_bread.ui', self)
-        self.setWindowTitle('샌드위치 먹을래? v0.1')
+        self.setWindowIcon(QIcon('./Git_Image/sandwich.png'))
+        self.setWindowTitle('샌드위치 먹을래? v0.2')
 
         self.btnbread1.clicked.connect(self.btnbreadClicked)
         self.btnbread2.clicked.connect(self.btnbreadClicked)

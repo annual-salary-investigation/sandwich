@@ -15,8 +15,8 @@ class qtApp(QDialog):
         
         super().__init__()
         uic.loadUi('./sandwich.ui',self)
-        self.setWindowIcon(QIcon('./studyPyQt/addressBook.png'))
-        self.setWindowTitle('샌드위치 먹을래? v0.1')
+        self.setWindowIcon(QIcon('./Git_Image/sandwich.png'))
+        self.setWindowTitle('샌드위치 먹을래? v0.2')
         
         self.btnmenu1.clicked.connect(self.btnmenuClicked)
         self.btnmenu2.clicked.connect(self.btnmenuClicked)

@@ -87,4 +87,3 @@ class Veg(QDialog):
         self.names.pop()       
         obj.show()
         self.close()
-        

@@ -1,7 +1,8 @@
 import sys
 from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
 from PyQt5 import uic
-import pymysql
+
 
 class Money(QDialog):
     names = []
@@ -9,7 +10,8 @@ class Money(QDialog):
     def __init__(self):
         super().__init__()
         uic.loadUi('./sandwich_money.ui', self)
-        self.setWindowTitle('샌드위치 먹을래? v0.1')
+        self.setWindowIcon(QIcon('./Git_Image/sandwich.png'))
+        self.setWindowTitle('샌드위치 먹을래? v0.2')
 
         self.show() # 두번째 창 실행
 
@@ -18,6 +20,14 @@ class Money(QDialog):
         # # #self.btnPrev.clicked.connect(self.btnPrevClicked)
 
     def btnbreadClicked(self):
-        QMessageBox.question(self,'결재', '결재를 진행하시겠습니까?')
+        qmsBox = QMessageBox()
+        qmsBox.question(self, '결제', '결제를 진행하시겠습니까?',
+                                      QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+
+        if qmsBox == QMessageBox.Yes:
+            pass
+        elif qmsBox == QMessageBox.No:
+            pass
+        
 
     
