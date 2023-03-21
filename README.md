@@ -2,7 +2,7 @@
 GUI 샌드위치 키오스크 앱
 
 # 결과
-![결과물]((https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/sandwich.gif))
+![결과물](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/sandwich.gif)
 
 
 
