@@ -9,10 +9,12 @@ from set import Set
 class Sauce(QDialog):
     names = []
     curOrderNo = 0
+    curmenu = 0
     curbread = 0
     curcheese = 0
     curveg = 0
     cursauce = 0
+    total_menu = 0
 
     def __init__(self):
         super().__init__()
@@ -55,20 +57,23 @@ class Sauce(QDialog):
         self.conn.close()
 
         print('메뉴 저장')
-        print(self.curbread)
-        print(self.curcheese)
-        print(self.curveg)
-        print(sauceVal)
+        print('메뉴',self.curmenu)
+        print('빵',self.curbread)
+        print('치즈',self.curcheese)
+        print('야채',self.curveg)
+
 
         self.hide() # 메인 윈도우 숨김
-        self.six = Set()
-        self.six.names.append(self)
-        self.six.curOrderNo = self.curOrderNo
-        self.six.curbread = self.curbread
-        self.six.curcheese = self.curcheese
-        self.six.curveg = self.curveg
-        self.six.cursauce = sauceVal
-        self.six.show() # 두번째 창닫을 때까지 기다림
+        self.set = Set()
+        self.set.names.append(self)
+        self.set.curOrderNo = self.curOrderNo
+        self.set.curmenu = self.curmenu
+        self.set.curbread = self.curbread
+        self.set.curcheese = self.curcheese
+        self.set.curveg = self.curveg
+        self.set.cursauce = sauceVal
+
+        self.set.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 
     def btnPrevClicked(self):        

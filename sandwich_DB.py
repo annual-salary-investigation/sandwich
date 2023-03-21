@@ -9,6 +9,7 @@ from bread import Bread
 
 class qtApp(QDialog):
     curOrderNo = 0
+    curmenu = 0
 
     def __init__(self):
         
@@ -68,10 +69,11 @@ class qtApp(QDialog):
         print('메뉴 저장')
      
         self.hide() # 메인 윈도우 숨김
-        self.second = Bread()      
-        self.second.names.append(self)
-        self.second.curOrderNo = self.curOrderNo # OrderNo Key
-        self.second.show() # 두번째 창닫을 때까지 기다림        
+        self.bread = Bread()      
+        self.bread.names.append(self)
+        self.bread.curmenu = menuVal
+        self.bread.curOrderNo = self.curOrderNo # OrderNo Key
+        self.bread.show() # 두번째 창닫을 때까지 기다림        
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
         
 

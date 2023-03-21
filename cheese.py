@@ -8,8 +8,10 @@ import pymysql
 class Cheese(QDialog):
     names = []
     curOrderNo = 0
+    curmenu = 0
     curbread = 0
     curcheese = 0
+    
 
     def __init__(self):
         super().__init__()
@@ -20,6 +22,7 @@ class Cheese(QDialog):
         self.btncheese2.clicked.connect(self.btncheeseClicked)
         self.btncheese3.clicked.connect(self.btncheeseClicked)
         self.btnPrev.clicked.connect(self.btnPrevClicked)
+        
 
     def btncheeseClicked(self):
         print(self.curOrderNo)
@@ -50,15 +53,18 @@ class Cheese(QDialog):
         self.conn.close()
 
         print('메뉴 저장')
-        print(self.curbread)
+        print('메뉴',self.curmenu)
+        print('빵',self.curbread)
+      
 
         self.hide() # 메인 윈도우 숨김
-        self.four = Veg()
-        self.four.names.append(self)
-        self.four.curOrderNo = self.curOrderNo # OrdNo 넘겨줌
-        self.four.curbread = self.curbread
-        self.four.curcheese = cheeseVal
-        self.four.show() # 두번째 창닫을 때까지 기다림
+        self.veg = Veg()
+        self.veg.names.append(self)
+        self.veg.curOrderNo = self.curOrderNo # OrdNo 넘겨줌
+        self.veg.curmenu = self.curmenu
+        self.veg.curbread = self.curbread
+        self.veg.curcheese = cheeseVal
+        self.veg.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 
 

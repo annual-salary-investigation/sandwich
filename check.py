@@ -6,6 +6,7 @@ from money import Money
 class Check(QDialog):
     names = []
     curOrderNo = 0
+    curmenu = 0
     curbread = 0
     curcheese = 0
     curveg = 0
@@ -19,20 +20,25 @@ class Check(QDialog):
         self.setWindowTitle('샌드위치 먹을래? v0.1')
 
         self.show() # 두번째 창 실행
-
-        if self.curbread == 0: # 
-            self.total_menu = '화이트'
-            self.menuview.setText(self.total_menu)
-
+        
         self.btnpay.clicked.connect(self.btnbreadClicked)
         self.btnPrev.clicked.connect(self.btnPrevClicked)
        
 
     def btnbreadClicked(self):
         self.hide() # 메인 윈도우 숨김
-        self.seven = Money()
-        self.seven.names.append(self)
-        self.seven.show() # 두번째 창닫을 때까지 기다림
+        self.money = Money()
+        self.money.names.append(self)
+        self.money.curOrderNo = self.curOrderNo
+        self.money.curmenu = self.curmenu
+        self.money.curbread = self.curbread
+        self.money.curcheese = self.curcheese
+        self.money.curveg = self.curveg
+        self.money.cursauce = self.cursauce
+        self.money.curset = self.curset
+       
+
+        self.money.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
     
     def btnPrevClicked(self):        

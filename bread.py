@@ -8,7 +8,9 @@ import pymysql
 class Bread(QDialog):
     names = []
     curOrderNo = 0
+    curmenu = 0
     breadVal=0
+    
 
     def __init__(self):
         super().__init__()
@@ -33,17 +35,17 @@ class Bread(QDialog):
         breadName = self.sender().objectName()
 
 
-        if breadName == 'btnbread1': # 허니오트
+        if breadName == 'btnbread1': # 화이트
             breadVal = 1
-        elif breadName == 'btnbread2': # 화이트
+        elif breadName == 'btnbread2': # 하티
             breadVal = 2
-        elif breadName == 'btnbread3': # 플랫브레드
+        elif breadName == 'btnbread3': # 위트
             breadVal = 3
-        elif breadName == 'btnbread4': # 위트
+        elif breadName == 'btnbread4': # 파마산 오래가노
             breadVal = 4
-        elif breadName == 'btnbread5': # 하티
+        elif breadName == 'btnbread5': # 허니오트
             breadVal = 5
-        elif breadName == 'btnbread6': # 파마산오레가노
+        elif breadName == 'btnbread6': # 플랫브래드
             breadVal = 6
 
         query = '''INSERT INTO orderoptions
@@ -61,13 +63,15 @@ class Bread(QDialog):
         self.conn.close()
 
         print('메뉴 저장')
+        print('메뉴',self.curmenu)
     
         self.hide() # 메인 윈도우 숨김
-        self.third = Cheese()
-        self.third.names.append(self)
-        self.third.curOrderNo = self.curOrderNo # OrdNo 넘겨줌
-        self.third.curbread = breadVal
-        self.third.show() # 두번째 창닫을 때까지 기다림
+        self.cheese = Cheese()
+        self.cheese.names.append(self)
+        self.cheese.curOrderNo = self.curOrderNo # OrdNo 넘겨줌
+        self.cheese.curmenu = self.curmenu
+        self.cheese.curbread = breadVal
+        self.cheese.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 
     def btnPrevClicked(self):
