@@ -16,7 +16,8 @@ class Cheese(QDialog):
     def __init__(self):
         super().__init__()
         uic.loadUi('./sandwich_cheese.ui', self)
-        self.setWindowTitle('샌드위치 먹을래? v0.1')
+        self.setWindowIcon(QIcon('./Git_Image/sandwich.png'))
+        self.setWindowTitle('샌드위치 먹을래? v0.2')
 
         self.btncheese1.clicked.connect(self.btncheeseClicked)
         self.btncheese2.clicked.connect(self.btncheeseClicked)

@@ -18,7 +18,8 @@ class Set(QDialog,QWidget):
     def __init__(self):
         super().__init__()
         uic.loadUi('./sandwich_set.ui', self)
-        self.setWindowTitle('샌드위치 먹을래? v0.1')
+        self.setWindowIcon(QIcon('./Git_Image/sandwich.png'))
+        self.setWindowTitle('샌드위치 먹을래? v0.2')
 
         self.show() # 두번째 창 실행
 
