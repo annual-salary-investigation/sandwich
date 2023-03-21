@@ -51,7 +51,8 @@
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/아메리칸치즈.jpg);
-background: rgb(255, 255, 255);</string>
+background: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -90,7 +91,8 @@ background: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/슈레드 치즈.jpg);
-background: rgb(255, 255, 255);</string>
+background: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -129,7 +131,8 @@ background: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/모짜렐라 치즈.jpg);
-background: rgb(255, 255, 255);</string>
+background: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>

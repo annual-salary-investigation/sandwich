@@ -51,7 +51,8 @@
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/스위트칠리.jpg);
-background: rgb(255, 255, 255);</string>
+background: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -118,7 +119,8 @@ background: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/사우스웨스트.jpg);
-background: rgb(255, 255, 255);</string>
+background: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -213,7 +215,8 @@ background: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/랜치드레싱.jpg);
-background: rgb(255, 255, 255);</string>
+background: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>

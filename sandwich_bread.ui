@@ -74,7 +74,8 @@
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/newPrefix/화이트.png);</string>
+border-image: url(:/newPrefix/화이트.png);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -113,7 +114,8 @@ border-image: url(:/newPrefix/화이트.png);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/newPrefix/하티.png);</string>
+border-image: url(:/newPrefix/하티.png);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -152,7 +154,8 @@ border-image: url(:/newPrefix/하티.png);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/newPrefix/위트.png);</string>
+border-image: url(:/newPrefix/위트.png);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -191,7 +194,8 @@ border-image: url(:/newPrefix/위트.png);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/newPrefix/파마산오레가노.png);</string>
+border-image: url(:/newPrefix/파마산오레가노.png);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -266,7 +270,8 @@ color: rgb(255, 200, 13);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/newPrefix/허니오트.png);</string>
+border-image: url(:/newPrefix/허니오트.png);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -445,7 +450,8 @@ border-image: url(:/newPrefix/허니오트.png);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/newPrefix/플렛 브래드.png);</string>
+border-image: url(:/newPrefix/플렛 브래드.png);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>

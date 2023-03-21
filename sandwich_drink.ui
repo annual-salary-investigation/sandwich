@@ -47,7 +47,8 @@
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/set/cookie.jpg);</string>
+border-image: url(:/set/cookie.jpg);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -141,7 +142,8 @@ color: rgb(255, 200, 13);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/set/drink.jpg);</string>
+border-image: url(:/set/drink.jpg);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -176,7 +178,8 @@ border-image: url(:/set/drink.jpg);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/set/drink.jpg);</string>
+border-image: url(:/set/drink.jpg);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -211,7 +214,8 @@ border-image: url(:/set/drink.jpg);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">background: rgb(255, 255, 255);
-border-image: url(:/set/drink.jpg);</string>
+border-image: url(:/set/drink.jpg);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>

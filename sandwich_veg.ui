@@ -39,7 +39,8 @@
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/양상추.jpg);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -94,7 +95,8 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/아보카도.png);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -121,7 +123,8 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/피망.png);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -148,7 +151,8 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/할라피뇨.png);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -175,7 +179,8 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/올리브.png);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -202,7 +207,8 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/오이.png);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -229,7 +235,8 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/양파.png);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
@@ -256,7 +263,8 @@ background-color: rgb(255, 255, 255);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-image:url(:/newPrefix/토마토.png);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
    </property>
    <property name="text">
     <string/>
