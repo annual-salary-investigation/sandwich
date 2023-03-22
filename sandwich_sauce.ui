@@ -22,6 +22,12 @@
     <height>720</height>
    </size>
   </property>
+  <property name="font">
+   <font>
+    <family>나눔고딕</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
@@ -314,7 +320,7 @@ color: rgb(255, 255, 255);</string>
     <string>◀</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="menuview">
+  <widget class="QTextEdit" name="menuview">
    <property name="geometry">
     <rect>
      <x>110</x>

@@ -366,7 +366,7 @@ color: rgb(255, 255, 255);</string>
     <string>◀</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="menuview">
+  <widget class="QTextEdit" name="textEdit">
    <property name="geometry">
     <rect>
      <x>110</x>

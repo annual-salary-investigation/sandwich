@@ -2,6 +2,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5 import uic
+from done import Done
 
 
 class Money(QDialog):
@@ -17,18 +18,27 @@ class Money(QDialog):
 
         self.btncard.clicked.connect(self.btnbreadClicked)
         self.btnmoney.clicked.connect(self.btnbreadClicked)
-        # # #self.btnPrev.clicked.connect(self.btnPrevClicked)
+
 
     def btnbreadClicked(self):
-        qmsBox = QMessageBox()
-        qmsBox.setStyleSheet('QMessageBox {color: rgb(255, 255, 255)}')
-        qmsBox.question(qmsBox, '결제', '결제를 진행하시겠습니까?',
+        result = QMessageBox()
+        result.setStyleSheet('QMessageBox {color :rgb(255, 255, 255)}')
+        result.setWindowIcon(QIcon('./Git_Image/sandwich.png'))
+        qmsBox = result.question(result, '결제', '결제 하시겠습니까?',
                                       QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
-
+       
+        
         if qmsBox == QMessageBox.Yes:
-            pass
+            self.done = Done()
+            self.done.names.append(self)
+            self.done.show()
+            self.close
         elif qmsBox == QMessageBox.No:
-            pass
+            return
+        
+
+           
+            
         
 
     

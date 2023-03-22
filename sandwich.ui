@@ -386,6 +386,12 @@ color: rgb(255, 200, 13);</string>
      <height>161</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>

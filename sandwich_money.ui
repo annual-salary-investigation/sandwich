@@ -135,7 +135,7 @@ color: rgb(255, 200, 13);</string>
     <string>현금</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="menuview">
+  <widget class="QTextEdit" name="textEdit">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -143,6 +143,12 @@ color: rgb(255, 200, 13);</string>
      <width>631</width>
      <height>161</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>14</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 255, 255);</string>

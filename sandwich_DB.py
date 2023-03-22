@@ -73,6 +73,24 @@ class qtApp(QDialog):
         self.bread.names.append(self)
         self.bread.curmenu = menuVal
         self.bread.curOrderNo = self.curOrderNo # OrderNo Key
+
+        if menuVal == 4: # 
+            self.bread.total_menu = '메뉴 선택 : 이탈리안 비엠티'
+            self.bread.menuview.setText(self.bread.total_menu)
+        elif menuVal ==3:
+            self.bread.total_menu = '메뉴 선택 : 에그마요'
+            self.bread.menuview.setText(self.bread.total_menu)
+        elif menuVal ==2:
+            self.bread.total_menu = '메뉴 선택 : 스테이크 & 치즈'
+            self.bread.menuview.setText(self.bread.total_menu)
+        elif menuVal ==1:
+            self.bread.total_menu = '메뉴 선택 : 서브웨이 클럽'
+            self.bread.menuview.setText(self.bread.total_menu)
+        elif menuVal ==5:
+            self.bread.total_menu = '메뉴 선택 : 치킨 데리야끼'
+            self.bread.menuview.setText(self.bread.total_menu)
+                   
+
         self.bread.show() # 두번째 창닫을 때까지 기다림        
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
         

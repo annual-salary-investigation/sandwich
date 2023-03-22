@@ -10,6 +10,7 @@ class Bread(QDialog):
     curOrderNo = 0
     curmenu = 0
     breadVal=0
+    total_menu = 0
     
 
     def __init__(self):
@@ -72,6 +73,44 @@ class Bread(QDialog):
         self.cheese.curOrderNo = self.curOrderNo # OrdNo 넘겨줌
         self.cheese.curmenu = self.curmenu
         self.cheese.curbread = breadVal
+
+        if self.curmenu == 4: # 
+            self.cheese.total_menu = '메뉴 선택 : 이탈리안 비엠티'
+            self.cheese.menuview.setText(self.cheese.total_menu)
+        elif self.curmenu ==3:
+            self.cheese.total_menu = '메뉴 선택 : 에그마요'
+            self.cheese.menuview.setText(self.cheese.total_menu)
+        elif self.curmenu ==2:
+            self.cheese.total_menu = '메뉴 선택 : 스테이크 & 치즈'
+            self.cheese.menuview.setText(self.cheese.total_menu)
+        elif self.curmenu ==1:
+            self.cheese.total_menu = '메뉴 선택 : 서브웨이 클럽'
+            self.cheese.menuview.setText(self.cheese.total_menu)
+        elif self.curmenu ==5:
+            self.cheese.total_menu = '메뉴 선택 : 치킨 데리야끼'
+            self.cheese.menuview.setText(self.cheese.total_menu)
+
+        # 빵
+        if breadVal == 1: 
+            self.cheese.total_menu = '빵 선택 : 화이트'
+            self.cheese.menuview.append(self.cheese.total_menu)
+        elif breadVal ==2:
+            self.cheese.total_menu = '빵 선택 : 하티'
+            self.cheese.menuview.append(self.cheese.total_menu)
+        elif breadVal ==3:
+            self.cheese.total_menu = '빵 선택 : 위트'
+            self.cheese.menuview.append(self.cheese.total_menu)
+        elif breadVal ==4:
+            self.cheese.total_menu = '빵 선택 : 파마산 오래가노'
+            self.cheese.menuview.append(self.cheese.total_menu)
+        elif breadVal ==5:
+            self.cheese.total_menu = '빵 선택 : 허니오트'
+            self.cheese.menuview.append(self.cheese.total_menu)
+        elif breadVal ==6:
+            self.cheese.total_menu = '빵 선택 : 플랫브래드'
+            self.cheese.menuview.append(self.cheese.total_menu)
+
+
         self.cheese.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 

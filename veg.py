@@ -79,6 +79,81 @@ class Veg(QDialog):
         self.sauce.curbread = self.curbread
         self.sauce.curcheese = self.curcheese
         self.sauce.curveg = vegVal
+
+        if self.curmenu == 4: # 
+            self.sauce.total_menu = '메뉴 선택 : 이탈리안 비엠티'
+            self.sauce.menuview.setText(self.sauce.total_menu)
+        elif self.curmenu ==3:
+            self.sauce.total_menu = '메뉴 선택 : 에그마요'
+            self.sauce.menuview.setText(self.sauce.total_menu)
+        elif self.curmenu ==2:
+            self.sauce.total_menu = '메뉴 선택 : 스테이크 & 치즈'
+            self.sauce.menuview.setText(self.sauce.total_menu)
+        elif self.curmenu ==1:
+            self.sauce.total_menu = '메뉴 선택 : 서브웨이 클럽'
+            self.sauce.menuview.setText(self.sauce.total_menu)
+        elif self.curmenu ==5:
+            self.sauce.total_menu = '메뉴 선택 : 치킨 데리야끼'
+            self.sauce.menuview.setText(self.sauce.total_menu)
+
+
+        # 빵
+        if self.curbread == 1: 
+            self.sauce.total_menu = '빵 선택 : 화이트'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif self.curbread ==2:
+            self.sauce.total_menu = '빵 선택 : 하티'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif self.curbread ==3:
+            self.sauce.total_menu = '빵 선택 : 위트'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif self.curbread ==4:
+            self.sauce.total_menu = '빵 선택 : 파마산 오래가노'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif self.curbread ==5:
+            self.sauce.total_menu = '빵 선택 : 허니오트'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif self.curbread ==6:
+            self.sauce.total_menu = '빵 선택 : 플랫브래드'
+            self.sauce.menuview.append(self.sauce.total_menu)
+
+        # 치즈
+        if self.curcheese == 7:  
+            self.sauce.total_menu = '치즈 선택 : 아메리칸 치즈'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif self.curcheese ==8:
+            self.sauce.total_menu = '치즈 선택 : 슈레드 치즈'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif self.curcheese ==9:
+            self.sauce.total_menu = '치즈 선택 : 모짜렐라 치즈'
+            self.sauce.menuview.append(self.sauce.total_menu)
+
+        # 야채
+        if vegVal == 10: # 
+            self.sauce.total_menu = '야채 선택 : 양상추'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif vegVal ==11:
+            self.sauce.total_menu = '야채 선택 : 아보카도'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif vegVal ==12:
+            self.sauce.total_menu = '야채 선택 : 양파'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif vegVal ==13:
+            self.sauce.total_menu = '야채 선택 : 오이'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif vegVal ==14:
+            self.sauce.total_menu = '야채 선택 : 올리브'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif vegVal ==15:
+            self.sauce.total_menu = '야채 선택 : 토마토'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif vegVal ==16:
+            self.sauce.total_menu = '야채 선택 : 피망'
+            self.sauce.menuview.append(self.sauce.total_menu)
+        elif vegVal ==17:
+            self.sauce.total_menu = '야채 선택 : 할라피뇨'
+            self.sauce.menuview.append(self.sauce.total_menu)
+
         self.sauce.show() # 두번째 창닫을 때까지 기다림
         self.close() # 두번째 창 닫으면 다시 첫번 째 창 보여짐
 
