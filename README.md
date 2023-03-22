@@ -43,11 +43,21 @@ GUI 샌드위치 키오스크 앱
 # 5일차 
 - check창에 메뉴 뜨게 구현
 - 결제 확인창 QMessageBox로 띄움
-- 결제 완료창 추가
 
 ![메뉴 확인창](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_check_menu.png)
 
 ![결제 확인창](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_paymentt.png)
+
+
+# 6일차 
+- UI 수정
+- 결제 확인창 아이콘 설정
+- 메뉴 선택시 선택한메뉴 출력되게 구현
+- 결재 완료 창
+
+![선택한 메뉴 출력](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_menubar.png)
+
+![결재 완료 창](https://raw.githubusercontent.com/annual-salary-investigation/sandwich/main/Git_Image/UI_done.png)
 
 
     

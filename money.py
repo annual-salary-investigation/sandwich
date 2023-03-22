@@ -32,7 +32,7 @@ class Money(QDialog):
             self.done = Done()
             self.done.names.append(self)
             self.done.show()
-            self.close
+            self.close()
         elif qmsBox == QMessageBox.No:
             return
         
