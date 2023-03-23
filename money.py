@@ -16,11 +16,11 @@ class Money(QDialog):
 
         self.show() # 두번째 창 실행
 
-        self.btncard.clicked.connect(self.btnbreadClicked)
-        self.btnmoney.clicked.connect(self.btnbreadClicked)
+        self.btncard.clicked.connect(self.btnmoneyClicked)
+        self.btnmoney.clicked.connect(self.btnmoneyClicked)
 
 
-    def btnbreadClicked(self):
+    def btnmoneyClicked(self):
         result = QMessageBox()
         result.setStyleSheet('QMessageBox {color :rgb(255, 255, 255)}')
         result.setWindowIcon(QIcon('./Git_Image/sandwich.png'))

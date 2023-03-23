@@ -5,7 +5,7 @@ from PyQt5.QtGui import QPixmap, QIcon
 import pymysql
 from check import Check
 
-class Set(QDialog,QWidget):
+class Set(QDialog):
     names = []
     curOrderNo = 0
     curmenu = 0

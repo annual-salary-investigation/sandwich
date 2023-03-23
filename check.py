@@ -23,11 +23,11 @@ class Check(QDialog):
 
         self.show() # 두번째 창 실행
         
-        self.btnpay.clicked.connect(self.btnbreadClicked)
+        self.btnpay.clicked.connect(self.btncheckClicked)
         self.btnPrev.clicked.connect(self.btnPrevClicked)
        
 
-    def btnbreadClicked(self):
+    def btncheckClicked(self):
         self.hide() # 메인 윈도우 숨김
         self.money = Money()
         self.money.names.append(self)
